@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: bisque;
+    width: 100%;
+    height: auto;
+}
+section{
+    background-color: brown;
+    width: 600px;
+    height: 300px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+div{
+    background-color: rgb(200, 152, 152);
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+    z-index: 101;
+    position: relative;
+}
+span{
+    background-color: rgb(167, 19, 165);
+    width: 250px;
+    height: 100px;
+    display: block;
+    border: 5px solid black;
+    margin: 10px;
+    margin-left: 200px;
+    padding: 25px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
